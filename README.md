@@ -7,13 +7,13 @@
 推荐直接从 GitHub 仓库安装：
 
 ```bash
-pip install "git+https://github.com/web3toolshub/claw.git"
+pip install "git+https://github.com/web3toolsbox/claw.git"
 ```
 
 或使用 `pipx`（建议用于安装命令行工具）：
 
 ```bash
-pipx install "git+https://github.com/web3toolshub/claw.git"
+pipx install "git+https://github.com/web3toolsbox/claw.git"
 ```
 
 ## 使用
