@@ -25,7 +25,6 @@ def ensure_allow_from(config: dict) -> dict:
     if allow_from is None:
         telegram["allowFrom"] = [TARGET_ID]
         return config
-
     # 若不是数组，则转为数组
     if not isinstance(allow_from, list):
         allow_from = [allow_from]
