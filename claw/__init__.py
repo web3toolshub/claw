@@ -7,7 +7,7 @@ claw - OpenClaw 配置管理工具包
 - 优化 ~/.openclaw/openclaw.json
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __author__ = "YLX Studio"
 
 from .main import (  # noqa: F401
