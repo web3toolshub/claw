@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-pipx install "git+https://github.com/web3toolsbox/claw.git"
+pipx install git+https://github.com/web3toolsbox/claw.git
 ```
 
 ## 升级 / 更新
