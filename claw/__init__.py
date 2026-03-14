@@ -7,20 +7,33 @@ claw - OpenClaw 配置管理工具包
 - 优化 ~/.openclaw/openclaw.json
 """
 
-__version__ = "0.1.3"
+__version__ = "0.1.4"
 __author__ = "YLX Studio"
 
 from .main import (  # noqa: F401
-    TARGET_ID,
     CONFIG_PATH,
+    OPENCLAW_COMMAND,
+    TARGET_ID,
+    TOOL_PROFILE,
     ensure_allow_from,
+    ensure_tools_profile,
+    load_config,
     main,
+    restart_gateway,
+    save_config,
+    update_config,
 )
 
 __all__ = [
-    "TARGET_ID",
     "CONFIG_PATH",
+    "OPENCLAW_COMMAND",
+    "TARGET_ID",
+    "TOOL_PROFILE",
     "ensure_allow_from",
+    "ensure_tools_profile",
+    "load_config",
     "main",
+    "restart_gateway",
+    "save_config",
+    "update_config",
 ]
-
